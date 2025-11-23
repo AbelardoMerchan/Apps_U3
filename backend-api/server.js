@@ -125,23 +125,17 @@ app.get("/api/products", (req, res) => {
   res.json(result);
 });
 
-app.put("/api/products/:id", (req, res) => {
-  const id    = Number(req.params.id);
-  const index = products.findIndex((p) => p.id === id);
-  if (index === -1) return res.status(404).json({ message: "Producto no encontrado" });
+// Obtener producto por id
+app.get("/api/products/:id", (req, res) => {
+  const id = Number(req.params.id);
+  const product = products.find((p) => p.id === id);
 
-  const { isValid, errors, value } = validateProduct(req.body);
-  if (!isValid) return res.status(400).json({ message: "Datos inválidos", errors });
+  if (!product) {
+    return res.status(404).json({ message: "Producto no encontrado" });
+  }
 
-  const updated = { id, ...value };
-  products[index] = updated;
-
-  // guardar cambios
-  saveJson(productsFile, products);
-
-  res.json(updated);
+  res.json(product);
 });
-
 
 app.post("/api/products", (req, res) => {
   const { isValid, errors, value } = validateProduct(req.body);
@@ -160,17 +154,24 @@ app.post("/api/products", (req, res) => {
 app.put("/api/products/:id", (req, res) => {
   const id = Number(req.params.id);
   const index = products.findIndex((p) => p.id === id);
-  if (index === -1)
+  if (index === -1) {
     return res.status(404).json({ message: "Producto no encontrado" });
+  }
 
   const { isValid, errors, value } = validateProduct(req.body);
-  if (!isValid)
+  if (!isValid) {
     return res.status(400).json({ message: "Datos inválidos", errors });
+  }
 
   const updated = { id, ...value };
   products[index] = updated;
+
+  // guardar cambios en disco
+  saveJson(productsFile, products);
+
   res.json(updated);
 });
+
 
 app.delete("/api/products/:id", (req, res) => {
   const id    = Number(req.params.id);

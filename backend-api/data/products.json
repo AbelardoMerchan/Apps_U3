@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Smartphone X",
-    "description": "Teléfono inteligente de 6.5 pulgadas",
-    "price": 350,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Smartphone+X",
+    "name": "Samsung S25 ultra",
+    "description": "Teléfono inteligente de 6.9 pulgadas",
+    "price": 1200,
+    "imageUrl": "https://dam.elcorteingles.es/producto/www-001057063610836009-00.jpg?impolicy=Resize&width=1200&height=1200",
     "categoryId": 1,
     "stock": 10
   },
@@ -13,7 +13,7 @@
     "name": "Audífonos Bluetooth",
     "description": "Audífonos inalámbricos con cancelación de ruido",
     "price": 50,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Audifonos",
+    "imageUrl": "https://lavictoria.ec/wp-content/uploads/2023/03/AUDIFONOS-BLUETOOTH-HAKII-TIME-PRO-HAVIT-1-600x600.jpg",
     "categoryId": 1,
     "stock": 25
   },
@@ -22,7 +22,7 @@
     "name": "Mouse inalámbrico",
     "description": "Mouse ergonómico para uso diario",
     "price": 18.5,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Mouse",
+    "imageUrl": "https://kywiec.vtexassets.com/arquivos/ids/299811-800-auto?v=638937402460100000&width=800&height=auto&aspect=true",
     "categoryId": 1,
     "stock": 30
   },
@@ -31,7 +31,7 @@
     "name": "Camiseta básica",
     "description": "Camiseta de algodón, unisex",
     "price": 12.5,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Camiseta",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy5SZT2Xcivj4Rdk5-mNNh7AV2CIjQzgeSQw&s",
     "categoryId": 2,
     "stock": 50
   },
@@ -40,7 +40,7 @@
     "name": "Pantalón deportivo",
     "description": "Pantalón cómodo para hacer ejercicio",
     "price": 25,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Pantalon",
+    "imageUrl": "https://www.skole.ec/1752-large_default/pantalon-azul-marino-deportivo.jpg",
     "categoryId": 2,
     "stock": 20
   },
@@ -49,7 +49,7 @@
     "name": "Chaqueta ligera",
     "description": "Chaqueta rompevientos para clima fresco",
     "price": 40,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Chaqueta",
+    "imageUrl": "https://m.media-amazon.com/images/I/61JL297V-eL.jpg",
     "categoryId": 2,
     "stock": 15
   },
@@ -58,7 +58,7 @@
     "name": "Lámpara de escritorio",
     "description": "Lámpara LED ajustable para escritorio",
     "price": 18,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Lampara",
+    "imageUrl": "https://promartecuador.vtexassets.com/arquivos/ids/158376/lampara-mesa-flexible-pinza-negro-orange-11561_01.jpg?v=638337724322300000",
     "categoryId": 3,
     "stock": 15
   },
@@ -67,7 +67,7 @@
     "name": "Batidora de mano",
     "description": "Batidora para cocina con 3 velocidades",
     "price": 32,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Batidora",
+    "imageUrl": "https://m.media-amazon.com/images/I/71jubOfxzwL._AC_SL1500_.jpg",
     "categoryId": 3,
     "stock": 8
   },
@@ -76,7 +76,7 @@
     "name": "Balón de fútbol",
     "description": "Balón tamaño 5 para cancha de césped",
     "price": 22,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Balon",
+    "imageUrl": "https://thesportshop.ec/wp-content/uploads/2025/01/WESTON-BALON-INDOOR-WSS317-600x600.png",
     "categoryId": 4,
     "stock": 18
   },
@@ -85,7 +85,7 @@
     "name": "Zapatillas deportivas",
     "description": "Zapatillas para running",
     "price": 60,
-    "imageUrl": "https://via.placeholder.com/300x200?text=Zapatillas",
+    "imageUrl": "https://images-cdn.ubuy.com.br/68e0815fb4581e350608eda4-zapatos-de-hombre-zapatillas-deportivas.jpg",
     "categoryId": 4,
     "stock": 12
   }
